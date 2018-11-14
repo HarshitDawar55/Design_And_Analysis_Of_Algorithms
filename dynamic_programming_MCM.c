@@ -36,10 +36,7 @@ int main(int argc, char const *argv[])
 	printf("How many matrices to be multiplied\n");
 	scanf("%d",&n);
 	int order[n+1];					// as total order required for the matrix multiplication is 1 greator than the total number of matrices, therefore assign order array with n+1 elements.
-	/*for(i=1;i<=n;i++){
-		int m_i_1;
-		int m_i_2;
-	}*/
+
 	for(i=0;i<=n;i++){
 		printf("Enter the order %d\n",i );
 		scanf("%d",&order[i]);
